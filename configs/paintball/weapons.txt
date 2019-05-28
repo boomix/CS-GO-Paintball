@@ -1,0 +1,45 @@
+"Paintball-guns"
+{
+	"weapon_mp7"
+	{
+		"price"					"300"
+		"auto"					"1"
+		"bullet-speed"			"1600.0"
+		"bullet-gravity"		"0.2"
+		"accuracy"				"40.0"
+		"jump-accuracy"			"200.0"
+		"running-speed"			"1.0"
+		"reload-speed"			"1.6"
+		"switch-guns-speed"		"0.9"
+		"shot-delay"			"0.05"
+	}
+	
+	"weapon_glock"
+	{
+		"price"					"300"
+		"auto"					"1"
+		"bullet-speed"			"1000"
+		"bullet-gravity"		"0.2"
+		"accuracy"				"1.0"
+		"jump-accuracy"			"5.0"
+		"running-speed"			"1.15"
+		"reload-speed"			"1.2"
+		"switch-guns-speed"		"0.6"
+		"shot-delay"			"0.12"	
+	}
+	
+	"weapon_awp"
+	{
+		"price"					"1300"
+		"auto"					"0"
+		"bullet-speed"			"3600"
+		"bullet-gravity"		"0.1"
+		"accuracy"				"0.0"
+		"jump-accuracy"			"250.0"
+		"running-speed"			"0.9"
+		"reload-speed"			"1.0"
+		"switch-guns-speed"		"1.2"
+		"shot-delay"			"2.0"	
+	}
+	
+}
