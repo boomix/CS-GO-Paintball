@@ -5,3 +5,7 @@ This is gamemode what was popular in counter-strike 1.6, but didn't make till CS
 # Gameplay:
 
 [![Watch the video](https://i.imgur.com/O5usMOK.png)](https://youtu.be/bmRmy5h65Jw)
+
+# Download materials/models
+
+https://forums.alliedmods.net/attachment.php?attachmentid=157544&d=1474650774
