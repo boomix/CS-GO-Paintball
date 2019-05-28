@@ -62,11 +62,11 @@ public StindingGlow(float pos[3], int team) {
 	AcceptEntityInput(GLOW_ENTITY, "ShowSprite");
 	TeleportEntity(GLOW_ENTITY, pos, NULL_VECTOR, NULL_VECTOR);
 	
-	CreateTimer(2.7, RemoveEntity, GLOW_ENTITY);
+	CreateTimer(2.7, RemoveEntityTmr, GLOW_ENTITY);
 
 }
 
-public Action RemoveEntity(Handle tmr, any entity)
+public Action RemoveEntityTmr(Handle tmr, any entity)
 {
 	if(IsValidEntity(entity))
 		AcceptEntityInput(entity, "Kill");

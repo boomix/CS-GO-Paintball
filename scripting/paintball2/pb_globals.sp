@@ -49,7 +49,7 @@ float 	f_HWTimeBetweenShots[MAXPLAYERS + 1];
 float 	f_HWJumpAccuracy[MAXPLAYERS + 1];
 
 bool b_autowepswitch[MAXPLAYERS + 1];
-
+int Collision_Offsets;
 
 
 //Set default values

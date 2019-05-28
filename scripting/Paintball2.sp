@@ -58,9 +58,24 @@ public void OnPluginStart()
 	UpdateConvars();
 
 	
-	
+	Collision_Offsets = FindSendPropInfo("CBaseEntity", "m_CollisionGroup");
 }
 
+public void OnEntityCreated(int entity, const char[] classname)
+{
+	if(StrContains(classname, "_projectile") != -1) {
+		SDKHook(entity, SDKHook_SpawnPost, OnEntitySpawned);
+	}
+}
+public void OnEntitySpawned(int entity)
+{
+	SDKHook( entity, SDKHook_ShouldCollide, ShouldCollide ); 
+}
+
+public bool ShouldCollide( int entity, int collisiongroup, int contentsmask, bool result ) 
+{ 
+	
+}
 
 public void OnCvarChanged(Handle hConvar, const char[] chOldValue, const char[] chNewValue)
 {
